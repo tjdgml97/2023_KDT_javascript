@@ -35,9 +35,9 @@ const filterArr = numbers2.filter((item) => item > 3);
 console.log(filterArr);
 
 const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
-const resultArr = words.filter((item) => item.length > 6);
+// const resultArr = words.filter((item) => item.length > 6);
 
 const numbers4 = [1, 2, 3, 4, 5, 6];
 
-// console.log(numbers4.includes(3));
-// console.log(numbers4.includes(7));
+console.log(numbers4.includes(3));
+console.log(numbers4.includes(7));
